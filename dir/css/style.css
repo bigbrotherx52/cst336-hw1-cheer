@@ -1,0 +1,86 @@
+body{
+    font-family: 'Titillium Web', sans-serif;
+    background-color:black;
+    color: grey;
+}
+
+h1{
+    font-family: 'Krona One', sans-serif;
+    font-size: 5em;
+    margin-bottom: 0px;
+}
+
+main{
+    text-align:left;
+}
+header, nav, footer{
+    text-align: center;
+}
+
+nav a{/* links within Nav container*/
+    padding:15px;
+    padding-bottom: 4px;
+    font-size: 1.8em;
+    text-decoration: none; /*removes underline*/
+    /*changes color from blue to white*/
+    color:white;            
+}
+
+nav a:hover{
+    /*pseudo class*/
+    border-bottom: 2px orange solid;
+    font-size: 2em;
+    transition: .9s; /*transition effect*/
+    color:#ead9af;
+}
+
+figure, div{
+    float: left;
+}
+
+#me, #welcomeText{
+    float: left;
+}
+
+#otter{
+    float: inherit;
+}
+
+footer{
+    clear:left ;
+}
+
+table{
+    margin:0px auto;
+}
+
+td{
+    padding-right: 10px;
+    font-size: 1.3em;
+}
+
+td strong{
+    color:orange;
+}
+
+#table-header{
+    background-color: #351a00;
+}
+
+.table-row{
+    background-color: #753900;
+}
+
+ul{
+    text-align:left;
+    padding-left: 200px;
+}
+
+.hobby{
+    color: yellow;
+}
+
+#currentLink{
+        color:#ead9af;
+    font-weight: bold;
+}
