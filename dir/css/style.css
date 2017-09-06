@@ -1,13 +1,14 @@
 body{
     font-family: 'Titillium Web', sans-serif;
-    background-color:black;
-    color: grey;
+    background-color:blue;
+    color: green;
 }
 
 h1{
     font-family: 'Krona One', sans-serif;
     font-size: 5em;
     margin-bottom: 0px;
+    text-shadow: 2px 2px 8px #F23000;
 }
 
 main{
