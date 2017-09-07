@@ -41,7 +41,20 @@ in html
         <br/><br/>
         
         <main>
-
+            <figure class="graphic">
+                <img  src="img/heap-frag.png" alt="heap fragmentation">
+            </figure>
+            <div class= "content">
+                <h5>The "Foam"</h5>
+                <p>
+                    You're developing for a console, or developing software for a PoS that is meant to be affordable and light. chances are better then not you're going to run into memory limitations. Why throw 8 gigs of ram into what can accomplish the same task with just 500mb? A potential issue this could cause is that when you load something into memory, and then something else, deallocating that first chuck of memory will leave the second one floating. Now imagine this going on for a while, eventually it's possible your memory starts to look "foamy" and it becomes more and more difficult to find places to put your data.
+                </p>
+                <p>
+                    This foamy memory will result in a crashed machine. Games released to consoles (which might not have as well regulated memory depending on platform and software) nowadays will be required to go through several days of idling to see if it will crash.
+                </p>
+                    Another issue is loading and unloading objects to memory can be a bottle neck, specially when that object might need to be loaded again soon after it was removed. A solution to both these problems can be found in the <a href="object-pool.html">Object Pool!</a>
+                </p>
+            </div>
         </main>
         <!-- This is the footer -->
         <!-- The footer goes inside the body but not always -->
@@ -52,7 +65,7 @@ in html
             <strong>Disclaimer:</strong> This site is for educational use<br/>
             <br/>
             <figure id ="otter">
-                <img src="dir/img/otter.jpg" alt = "Go Otters!"></img>
+                <img src="img/otter.jpg" alt = "Go Otters!"></img>
             </figure>
         </footer>
         <!-- closing footer -->

@@ -42,6 +42,18 @@ in html
         
         <main>
 
+            <figure class="graphic" >
+                <img src="img/free-list-graph.png" alt="Speed up that search!">
+            </figure>
+            
+            <div class="content">
+                <p>
+                    a tool that can be used with a free list to greatly increase the compute time is what is called a Free List. This system will use a pointer to direct the pool to the next free object. With this linked list at the disposal of the object pool, finding the next free object in the pool of 10000s goes from potentially the same number of searches (to maybe find out there are no free elements) to one quick check.
+                </p>
+                <p>
+                    this can be further improved to save memory by utilizing a Union data structure. Unions essentially say "this block of data is either this stuff, or it's that stuff (in this case, it'll be the pointer to the next free element). This is visually shown in the graph.
+                </p>
+            </div>
         </main>
         <!-- This is the footer -->
         <!-- The footer goes inside the body but not always -->
@@ -52,7 +64,7 @@ in html
             <strong>Disclaimer:</strong> This site is for educational use<br/>
             <br/>
             <figure id ="otter">
-                <img src="dir/img/otter.jpg" alt = "Go Otters!"></img>
+                <img src="img/otter.jpg" alt = "Go Otters!"></img>
             </figure>
         </footer>
         <!-- closing footer -->

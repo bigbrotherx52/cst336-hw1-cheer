@@ -6,6 +6,7 @@ First Website
 and comment
 in html
 (comments can span multiple lines)
+
 -->
 
 <!-- This is the head -->
@@ -14,7 +15,7 @@ in html
         <meta charset = "utf-8"/>
         <title> Design Pattern: Object Pool </title>
         <link href="dir/css/style.css" rel="stylesheet" type="text/css"/>
-        <!--<link href="https://fonts.googleapis.com/css?family=Krona+One+Titillium+Web:600" rel="stylesheet">-->
+        <link href="https://fonts.googleapis.com/css?family=Kanit|Krona+One|Titillium+Web:600" rel="stylesheet">
     </head>
 <!-- closing head -->
 
@@ -40,7 +41,11 @@ in html
         <br/><br/>
         
         <main>
-            <div class = "content">
+            <figure class="graphic" >
+                <img src="dir/img/hqdefault.jpg" alt="all those objects!">
+            </figure>
+            
+            <div class="content">
                 <p>
                     Say you're playing a game, and you notice that at any given time, there are hundreds of little things appearing and vanishing in an instant, with apparently no 
                     hang ups or loading. You think to yourself "man, this is buttery smooth, everything I make takes forever to load." Well one way they achieve this, especially on 
@@ -52,8 +57,8 @@ in html
             </div>
             
             
-            <div class= "footnote"> For additional information on this topic, check out <a href="http://gameprogrammingpatterns.com/object-pool.html">Game Programming Patterns: Object Pool</a> 
-            for a great breakdown on Object Pools, and other design patterns</div>
+            <div class= "footnote"><sub>  For additional information on this topic, check out <a href="http://gameprogrammingpatterns.com/object-pool.html">Game Programming Patterns: Object Pool</a> 
+            for a great breakdown on Object Pools, and other design patterns, and <a href="http://davecancode.com/object-pool/">Dan Can Code</a></sub></div>
         </main>
         <!-- This is the footer -->
         <!-- The footer goes inside the body but not always -->

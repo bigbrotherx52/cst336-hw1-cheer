@@ -1,21 +1,38 @@
 body{
     font-family: 'Titillium Web', sans-serif;
-    background-color:blue;
-    color: green;
+    background-color:#203a63;
+    color: grey;
 }
 
 h1{
-    font-family: 'Krona One', sans-serif;
+    font-family: 'Kanit', sans-serif;
     font-size: 5em;
     margin-bottom: 0px;
-    text-shadow: 2px 2px 8px #F23000;
+    text-shadow: 2px 2px 8px #F23000; /* new rule */
+}
+
+mark{
+    background-color:orange;
+    font-style: italic;
+}
+
+.footnote{
+    clear:left;
+    font-style: italic;
 }
 
 main{
     text-align:left;
 }
-header, nav, footer{
+
+header, footer{
     text-align: center;
+}
+
+nav{
+    text-align: center;
+    background-size: 100%;
+    background-image: url(../img/techbackground.png); /*new rule*/
 }
 
 nav a{/* links within Nav container*/
@@ -35,51 +52,36 @@ nav a:hover{
     color:#ead9af;
 }
 
-figure, div{
+div{
     float: left;
 }
 
-#me, #welcomeText{
+.content{
     float: left;
+    width:50%;
+}
+
+.graphic{
+    float: left;
+    max-width:43%
+}
+
+.graphic img{
+    height: auto;
+    width: 100%;
+}
+
+
+
+footer{
+    clear:both;
+    padding-top: 50px;
 }
 
 #otter{
     float: inherit;
 }
 
-footer{
-    clear:left ;
-}
-
-table{
-    margin:0px auto;
-}
-
-td{
-    padding-right: 10px;
-    font-size: 1.3em;
-}
-
-td strong{
-    color:orange;
-}
-
-#table-header{
-    background-color: #351a00;
-}
-
-.table-row{
-    background-color: #753900;
-}
-
-ul{
-    text-align:left;
-    padding-left: 200px;
-}
-
-.hobby{
-    color: yellow;
-}
 
 #currentLink{
         color:#ead9af;

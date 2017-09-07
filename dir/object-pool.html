@@ -41,7 +41,21 @@ in html
         <br/><br/>
         
         <main>
-
+            <figure class="graphic" >
+                <img src="img/obj-pool-graph.png" alt="the struct of an object pool!">
+            </figure>
+            
+            <div class="content">
+                <p>
+                    So what is an object pool?
+                </p>
+                <p>
+                    Object pools are a type of data structure that relies on you just throwing your objects into memory, and keeping them there. The example given here is one based off a simple particle system for a game. There are 2 elements: <mark>the object</mark>, and the <mark>object pool</mark>. the pool holds an array of the objects, in this case the particle class, all created as dead, unused elements. When they are needed, the user will call on the pool to get a new one to use. this could be achieved any number of ways. Once the object has been create, the user will again call on the pool to do something to all the objects (or can call each object themselves). When the object is finished, it is turned off, and returned to the off state, where it can be called again later on.
+                </p>
+                <p>
+                    an issue that might be apparent to some observers that it might take a while to find the next available object to be used. This is where <a href="free-list.html">Free Lists</a> come into play.
+                </p>
+            </div>
         </main>
         <!-- This is the footer -->
         <!-- The footer goes inside the body but not always -->
@@ -52,7 +66,7 @@ in html
             <strong>Disclaimer:</strong> This site is for educational use<br/>
             <br/>
             <figure id ="otter">
-                <img src="dir/img/otter.jpg" alt = "Go Otters!"></img>
+                <img src="img/otter.jpg" alt = "Go Otters!"></img>
             </figure>
         </footer>
         <!-- closing footer -->
