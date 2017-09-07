@@ -15,7 +15,9 @@ in html
         <meta charset = "utf-8"/>
         <title> Design Pattern: Object Pool </title>
         <link href="dir/css/style.css" rel="stylesheet" type="text/css"/>
-        <link href="https://fonts.googleapis.com/css?family=Kanit|Krona+One|Titillium+Web:600" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Titillium+Web:600" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Krona+One" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Kanit" rel="stylesheet">
     </head>
 <!-- closing head -->
 
@@ -69,7 +71,7 @@ in html
             <strong>Disclaimer:</strong> This site is for educational use<br/>
             <br/>
             <figure id ="otter">
-                <img src="dir/img/otter.jpg" alt = "Go Otters!"></img>
+                <img src="dir/img/otter.jpg" alt = "Go Otters!">
             </figure>
         </footer>
         <!-- closing footer -->
